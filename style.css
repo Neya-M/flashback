@@ -115,8 +115,24 @@ button {
 .ys-icon {
 	width: clamp(16px, 30vw, 960px);
 }
-.shoplist {
-	border: 2px solid var(--hot-pink);
-	background: var(--bright-purple);
-	border-radius: 25px;
+.shopitem { 
+	border: 2px solid var(--hot-pink); 
+	background: var(--bright-purple); 
+	border-radius: 10px; 
+	color: var(--sky-blue); 
+	display: flex; 
+	width: 70%; 
+	margin: auto;
 }
+.iteminner {
+	margin: auto;
+}
+img {
+	width: clamp(16px, 30vw, 960px);
+}
+.shoplist {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
