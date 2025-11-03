@@ -32,7 +32,7 @@ body {
 	font-family: pixel;
 	font-weight: 400;
 	font-style: normal;
-	color: var(--hot-pink);
+	color: var(--bright-purple);
 	margin: 0px;
 	background-size: 40px 40px;
   	background-image: radial-gradient(circle, var(--hot-pink) 2px, var(--black) 2px);
