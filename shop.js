@@ -9,10 +9,10 @@ items.forEach((item) => {
 	let title = document.createElement("h3");
 	title.innerText = item[0];
 	let desc = document.createElement("p");
-	desc.innerText = item[3];
+	desc.innerText = item[3] + "   " + String(item[1]);
+	content.appendChild(img);
 	content.appendChild(title);
 	content.appendChild(desc);
-	content.appendChild(img);
 	content.className = "shopitem";
 	div.appendChild(content);
 	list.appendChild(div);
